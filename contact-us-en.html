@@ -1,0 +1,67 @@
+<!-- contact-us-en.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Blessed Tree Education and Investment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index-en.html">Home</a>
+            <a href="about-us-en.html">About Us</a>
+            <a href="services-en.html">Services</a>
+            <a href="case-studies-en.html">Case Studies</a>
+            <a href="testimonials-en.html">Client Testimonials</a>
+            <a href="contact-us-en.html">Contact Us</a>
+            <div class="language-switcher">
+                <a href="contact-us-ar.html">Arabic</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get In Touch</h2>
+            <p>If you have any inquiries, please feel free to contact us through the form below or reach out to us directly.</p>
+
+            <form action="contact-form-handler.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> Amman, Jordan</p>
+            <p><strong>Phone:</strong> +962-6-1234567</p>
+            <p><strong>Email:</strong> info@bteic.com</p>
+        </section>
+
+        <section>
+            <h2>Find Us</h2>
+            <p>Use the map below to locate our offices.</p>
+            <!-- Placeholder for Google Map -->
+            <div class="map-placeholder">Google Map Here</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blessed Tree Education and Investment. All rights reserved.</p>
+    </footer>
+</body>
+</html>

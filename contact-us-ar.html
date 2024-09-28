@@ -1,0 +1,67 @@
+<!-- contact-us-ar.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - شركة الشجرة المباركة للتعليم والاستثمار</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>اتصل بنا</h1>
+        <nav>
+            <a href="index-ar.html">الصفحة الرئيسية</a>
+            <a href="about-us-ar.html">من نحن</a>
+            <a href="services-ar.html">الخدمات</a>
+            <a href="case-studies-ar.html">دراسات الحالة</a>
+            <a href="testimonials-ar.html">شهادات العملاء</a>
+            <a href="contact-us-ar.html">اتصل بنا</a>
+            <div class="language-switcher">
+                <a href="contact-us-en.html">English</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>تواصل معنا</h2>
+            <p>إذا كانت لديك أي استفسارات، لا تتردد في الاتصال بنا من خلال النموذج أدناه أو التواصل معنا مباشرة.</p>
+
+            <form action="contact-form-handler.php" method="POST">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">الهاتف:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">إرسال الرسالة</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>معلومات الاتصال</h2>
+            <p><strong>العنوان:</strong> عمان، الأردن</p>
+            <p><strong>الهاتف:</strong> +962-6-1234567</p>
+            <p><strong>البريد الإلكتروني:</strong> info@bteic.com</p>
+        </section>
+
+        <section>
+            <h2>أين تجدنا</h2>
+            <p>استخدم الخريطة أدناه لتحديد موقع مكاتبنا.</p>
+            <!-- Placeholder for Google Map -->
+            <div class="map-placeholder">الخريطة هنا</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 الشجرة المباركة. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
