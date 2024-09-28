@@ -75,3 +75,132 @@ footer {
 html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] p {
     text-align: right;
 }
+
+
+/* Contact Us Page Styles */
+/* Form container */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form elements */
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+/* Specific styles for the textarea */
+.contact-form textarea {
+    height: 150px; /* Adjust height as needed */
+}
+
+/* Submit button styling */
+.contact-form button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.contact-form button:hover {
+    background: #444; /* Slightly lighter on hover */
+}
+
+/* Contact information section */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    color: #333; /* Header color */
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Map placeholder styling */
+.map-placeholder {
+    background-color: #ddd;
+    height: 300px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label,
+    form input,
+    form textarea,
+    form button {
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .map-placeholder {
+        height: 300px; /* Adjust as needed */
+        background: #ccc; /* Placeholder color */
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 900px) {
+    nav ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .map-placeholder {
+        height: 400px; /* Adjust as needed */
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 901px) {
+    main {
+        width: 80%;
+    }
+}
